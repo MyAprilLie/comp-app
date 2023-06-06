@@ -1,0 +1,217 @@
+.competition-card {
+  height: 373px;
+  width: 1323px;
+  border-radius: 0px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+.competition-title {
+  height: 112px;
+  width: 481px;
+  left: 25px;
+  top: 48px;
+  border-radius: nullpx;
+
+  font-family: Inter;
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.competition-description {
+  margin-top: 10px;
+}
+
+.competition-details {
+  margin-top: 10px;
+}
+
+.competition-details span {
+  margin-right: 10px;
+}
+
+.competition-timer {
+  margin-top: 10px;
+}
+
+.competition-participate {
+  margin-top: 10px;
+}
+
+.custom-block {
+  height: 91px;
+  width: 402px;
+  left: 550px;
+  top: 59px;
+  border-radius: 0px;
+}
+
+.description-text {
+  height: 91px;
+  width: 402px;
+  left: 550px;
+  top: 59px;
+  border-radius: 0px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.value-text {
+  border-radius: 16px;
+  padding: 4px 16px;
+  background: #f2f2f2;
+}
+
+.icon {
+  height: 16px;
+  width: 22px;
+  margin-bottom: 1%;
+}
+
+.value-text + .value-text {
+  margin-left: 20px;
+}
+
+.countdown-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.countdown-windows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  padding: 8px 0px 8px 0px;
+  background: #ffffff;
+  border: 2px solid #dadada;
+  margin-right: 10px;
+}
+
+.last-countdown-window {
+  margin-right: 0;
+}
+
+.countdown-value {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0b090c;
+}
+
+.countdown-label {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.registration-text {
+  color: #6c6a6c;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.participate-button {
+  width: 100%;
+}
+
+.start-date-text {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0b090c;
+  opacity: 60%;
+}
+
+.participant-notification {
+  height: 150px;
+  width: 275px;
+  left: 1025px;
+  top: 51px;
+  border-radius: 24px;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #ffffff;
+  border: 2px solid #dadada;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.participant-text {
+  height: 72px;
+  width: 196px;
+  left: 1047px;
+  top: 100px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.star-icon {
+  position: absolute;
+}
+
+.star-icon-top {
+  top: 25px;
+  left: 87%;
+}
+
+.star-icon-right {
+  top: 27%;
+  right: 60px;
+}
+
+.star-icon-bottom {
+  bottom: 36px;
+  left: 91%;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
