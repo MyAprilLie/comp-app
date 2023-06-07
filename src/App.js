@@ -1,12 +1,14 @@
 import React from 'react';
-import Competitions from './Competitions';
+import { Provider } from 'react-redux';
+import store from './Redux/store';
+import Competitions from './components/Competitions';
 
 const App = () => {
   return (
-    <div>
-      <h1>Competitions</h1>
+    <Provider store={store}>
+       <h1>Competitions</h1>
       <Competitions />
-    </div>
+    </Provider>
   );
 };
 
